@@ -1,5 +1,10 @@
 require "rspec/autorun"
 
+#Benefits of TDD:
+#suite of regression tests (easier changes)
+#positive design pressure
+#workflow benefit of tackling problem is small steps
+
 class Calculator
 	def add(a, b)
 		a + b
